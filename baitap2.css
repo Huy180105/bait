@@ -1,0 +1,26 @@
+.image-container {
+    float: right; /* Hình ảnh trôi về bên phải */
+    margin-left: 20px; /* Khoảng cách với văn bản bên trái */
+    margin-bottom: 20px; /* Khoảng cách phía dưới */
+    border: 1px solid #000; /* Đường viền quanh hình ảnh */
+    text-align: center; /* Căn giữa phụ đề */
+    width: 20%; /* Chiều rộng vùng chứa */
+    position: relative; /* Cần dùng để di chuyển ảnh */
+    top: -350px; /* Dịch ảnh lên 20px */
+}
+
+.image-container img {
+    width: 100%; /* Hình ảnh chiếm toàn bộ vùng chứa */
+    height: auto; /* Giữ tỉ lệ hình ảnh */
+}
+
+.image-caption {
+    font-style: italic; /* Chữ in nghiêng */
+    font-size: small; /* Kích thước nhỏ */
+    margin-top: 5px; /* Khoảng cách giữa hình ảnh và phụ đề */
+}
+
+.content {
+    line-height: 1.6; /* Khoảng cách dòng của văn bản */
+    text-align: justify; /* Văn bản căn đều hai bên */
+}

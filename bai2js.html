@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tính diện tích</title>
+    <link rel="stylesheet" href="bai2js.css">
+</head>
+<body>
+    <h2>Tính diện tích các hình học</h2>
+    
+    <!-- Diện tích hình chữ nhật -->
+    <label for="dài">Chiều dài hình chữ nhật: </label>
+    <input type="number" id="dài" placeholder="Nhập chiều dài" />
+    <label for="rộng">Chiều rộng hình chữ nhật: </label>
+    <input type="number" id="rộng" placeholder="Nhập chiều rộng" />
+    <button onclick="calculateRectangleArea()">Tính diện tích HCN</button>
+    <p id="HCN">Diện tích hình chữ nhật: </p>
+
+    <br><br>
+
+    <!-- Diện tích hình tam giác -->
+    <label for="đáy">Cạnh đáy hình tam giác: </label>
+    <input type="number" id="đáy" placeholder="Nhập cạnh đáy" />
+    <label for="cao">Chiều cao hình tam giác: </label>
+    <input type="number" id="cao" placeholder="Nhập chiều cao" />
+    <button onclick="calculateTriangleArea()">Tính diện tích TG</button>
+    <p id="HTG">Diện tích hình tam giác: </p>
+
+    <br><br>
+
+    <!-- Diện tích hình vuông -->
+    <label for="cạnh">Cạnh hình vuông: </label>
+    <input type="number" id="cạnh" placeholder="Nhập cạnh" />
+    <button onclick="calculateSquareArea()">Tính diện tích HV</button>
+    <p id="HV">Diện tích hình vuông: </p>
+
+    <script src="bai2js.js" defer></script>
+</body>
+</html>
